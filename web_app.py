@@ -64,7 +64,7 @@ if st.session_state.get('scan_in_progress', False):
         ("EBS Volumes", scan_ebs, [ec2]),
         ("Elastic IPs", scan_eip, [ec2]),
         ("Snapshots", scan_snapshots, [ec2]),
-        ("RDS Instances", scan_rds, [rds, cw]),
+        ("RDS Instances", scan_rds, [rds]),
         ("NAT Gateways", scan_nat, [ec2, cw]),
         ("S3 Buckets", scan_s3, [s3]),
         ("EC2 Instances", scan_ec2, [ec2, cw]),
