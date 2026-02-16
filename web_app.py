@@ -22,9 +22,9 @@ except ImportError:
     scan_alb = None
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="AWS Cost Optimizer", layout="wide", page_icon="⚡")
+st.set_page_config(page_title="AWS Cost Optimizer", layout="wide", page_icon="")
 
-st.title("⚡ AWS Cost Optimizer (Fast Mode)")
+st.title(" AWS Cost Optimizer")
 st.markdown("""
 **Stop wasting money.** This tool scans your AWS account in parallel to find idle resources instantly.
 """)
